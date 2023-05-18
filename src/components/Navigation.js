@@ -2,11 +2,8 @@ import React from 'react';
 
 function Navigation({ currentPage, handlePageChange }) {
   return (
-    <nav className="flex items-center justify-between flex-wrap bg-blue-500 p-6">
-      <div className="flex items-center flex-shrink-0 text-white mr-6">
-        <span className="font-semibold text-xl tracking-tight">Scarlet Bowen</span>
-      </div>
-      <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+    <nav className="nav-bar">
+      <div className="nav-buttons">
         <div className="text-sm lg:flex-grow">
           <button
             onClick={() => handlePageChange('About Me')}

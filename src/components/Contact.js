@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import {validateEmail, validateUsername, validateMessage} from '../utils/helpers.js';
+import './Contact.css';
 
 export default function Contact() {
 
@@ -38,7 +39,7 @@ export default function Contact() {
 
     return (
         <div>
-            <h1>Contact Me!</h1>
+            <h1>Contact Information</h1>
             <p>Fill out the simple form below to get in touch with me!</p>
             <form className='contactForm' onSubmit={handleSubmit}>
                 <input 

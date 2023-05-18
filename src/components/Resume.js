@@ -1,14 +1,20 @@
 import React from 'react';
+import browser from '../photos/browser.jpg';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import './Resume.css';
 
 export default function Resume() {
   return (
     <Row>
+      <Row>
+        <Col className="text-center">
+          <h1 className="title">Resume</h1>
+        </Col>
+      </Row>
       <Col md={4} className="text-center">
-        <h1>Resume</h1>
-        <img className="logo" src="https://www.flaticon.com/svg/static/icons/svg/2166/2166822.svg" alt="logo" />
-        <h1 className="isBlue">Front End</h1>
+        <img className="logo" src={browser} alt="browser" />
+        <h1>Front End</h1>
         <p>
           HTML5, CSS3
           <br />

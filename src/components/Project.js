@@ -1,4 +1,5 @@
 import React from 'react';
+import './Project.css';
 
 const Project = ({ name, technology, description, link, repo, image }) => (
   <div className="project">
