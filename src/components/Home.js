@@ -5,6 +5,8 @@ import Contact from './Contact';
 import Resume from './Resume';
 import Portfolio from './Portfolio';
 import '../index.css';
+import Footer from './Footer';
+import Header from './Header';
 
 export default function Home() {
   const [currentPage, setCurrentPage] = useState('About Me');
@@ -26,8 +28,10 @@ export default function Home() {
 
   return (
     <div>
+      <Header />
       <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
+      <Footer />
     </div>
   );
 }

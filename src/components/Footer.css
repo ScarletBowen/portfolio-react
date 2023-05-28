@@ -1,0 +1,50 @@
+footer {
+    padding: 5em;
+    position:relative;
+    bottom: 0;
+    width: 100%;
+    height: 150em; /* Set the fixed height of the footer */
+    overflow: auto;
+}
+
+footer h3 {
+    text-align: center;
+    color: #343a40;
+    padding-bottom: 10px;
+}
+
+footer h4, footer h5 {
+    text-align: center;
+    color: #6c757d;
+    padding: 2px;
+}
+
+footer .logo {
+    align-items: center;
+    width: 40px; /* Or whatever size you want */
+    height: 40px; /* Or whatever size you want */
+    margin-right: 10px;
+}
+
+.footer-logos {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-button {
+    display: flex;
+    justify-content: center;
+}
+
+
+footer a {
+    text-decoration: none;
+}
+
+footer .resume {
+    background-color: teal;
+    border-color: teal;
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+}
